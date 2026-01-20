@@ -13,7 +13,17 @@ MODEL_PATH = os.path.join(BASE_DIR, "../models/random_forest_model.pkl")
 # =====================================================
 # Load model (JOBLIB ONLY)
 # =====================================================
+import urllib.request
+
+MODEL_PATH = "models/random_forest_model.pkl"
+MODEL_URL = "https://drive.google.com/drive/folders/17HvCE3d997tDOnaWp22sae0euXotI9CD?usp=sharing"
+
+if not os.path.exists(MODEL_PATH):
+    os.makedirs("models", exist_ok=True)
+    urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
+
 model = joblib.load(MODEL_PATH)
+
 
 # =====================================================
 # Load encoders / aggregates (JOBLIB ONLY)
