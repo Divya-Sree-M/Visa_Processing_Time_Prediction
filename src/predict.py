@@ -16,7 +16,7 @@ MODEL_PATH = os.path.join(BASE_DIR, "../models/random_forest_model.pkl")
 import urllib.request
 
 MODEL_PATH = "models/random_forest_model.pkl"
-MODEL_URL = "https://drive.google.com/drive/folders/17HvCE3d997tDOnaWp22sae0euXotI9CD?usp=sharing"
+MODEL_URL = "https://drive.google.com/uc?export=download&id=1NVMIDjTfkp_EJzXzoPt9Z8riNTbhX3lb"
 
 if not os.path.exists(MODEL_PATH):
     os.makedirs("models", exist_ok=True)
