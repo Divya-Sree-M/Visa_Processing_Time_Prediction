@@ -109,19 +109,65 @@ Explained 61% variance in visa processing time
 
 Successfully handled complex, non-linear data patterns
 
+🚀Milestone 4: Deployment, Testing & Documentation
+
+Objective:
+Deploy the visa processing time prediction system and ensure reliability through testing and structured documentation.
+
+Key Activities:
+
+Developed a web-based prediction interface using Streamlit for user interaction
+
+Integrated the trained Random Forest prediction engine with the frontend
+
+Implemented input validation and preprocessing pipelines for real-time predictions
+
+Performed unit testing on core components such as preprocessing, feature encoding, and model inference
+
+Maintained a defect tracker to log, analyze, and resolve issues during development
+
+Prepared Agile documentation, including sprint planning and task tracking
+
+Structured project documentation for maintainability and future scalability
+
+Outcome:
+A deployment-ready, well-documented AI system capable of providing real-time visa processing time estimates, aligned with industry-grade development practices.
+
+☁️ Deployment Status & Limitations
+
+The machine learning pipeline and Streamlit application were developed to be deployment-ready.
+
+Cloud deployment could not be completed due to resource and environment constraints within the internship timeline.
+
+The project structure and application code are prepared for seamless deployment on platforms such as Streamlit Community Cloud or cloud services.
+
 📁 Project Structure
 Visa_Processing_Time_Prediction/
 │
 ├── data/
-│   └── preprocessed_visa_data.csv
+│   └── preprocessed.csv
 │
-├── notebooks/
-│   └── visa_prediction.ipynb
+├── docs/
+│   ├── Divya_Agile.pdf
+│   ├── Divya_UnitTesting.xlsx
+│   └── Divya_DefectTracker.xlsx
 │
 ├── models/
-│   └── random_forest_model.pkl
+│   └── linear_regression_model.pkl
 │
+├── src/
+│   ├── preprocessing.py
+│   ├── training.py
+│   └── predict.py
+│
+├── app.py                  # Streamlit web application
+├── run_processing.py       # Data preprocessing pipeline
+├── run_training.py         # Model training script
+├── visa_prediction.ipynb   # Experimentation notebook
+├── requirements.txt
 ├── README.md
+└── LICENSE
+
 
 🛠️ Technologies Used
 
@@ -135,15 +181,8 @@ Matplotlib
 
 Joblib
 
-🚀 Future Enhancements (Milestone 4)
+Streamlit
 
-Build a web-based estimator using Streamlit or Flask
-
-Allow users to input application details interactively
-
-Display predicted processing time range
-
-Add confidence intervals to predictions
 
 📌 Conclusion
 
