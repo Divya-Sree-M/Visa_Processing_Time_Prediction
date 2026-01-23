@@ -143,31 +143,31 @@ The project structure and application code are prepared for seamless deployment 
 
 📁 Project Structure
 Visa_Processing_Time_Prediction/
-│
-├── data/
-│   └── preprocessed.csv
-│
-├── docs/
-│   ├── Divya_Agile.pdf
-│   ├── Divya_UnitTesting.xlsx
-│   └── Divya_DefectTracker.xlsx
-│
-├── models/
-│   └── linear_regression_model.pkl
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── training.py
-│   └── predict.py
-│
-├── app.py                  # Streamlit web application
-├── run_processing.py       # Data preprocessing pipeline
-├── run_training.py         # Model training script
-├── visa_prediction.ipynb   # Experimentation notebook
-├── requirements.txt
-├── README.md
-└── LICENSE
 
+│  
+├── data/  
+│   └── preprocessed.csv  
+│  
+├── docs/  
+│   ├── Divya_Agile.pdf  
+│   ├── Divya_UnitTesting.xlsx  
+│   └── Divya_DefectTracker.xlsx  
+│  
+├── models/  
+│   └── linear_regression_model.pkl  
+│  
+├── src/  
+│   ├── preprocessing.py  
+│   ├── training.py  
+│   └── predict.py  
+│  
+├── app.py                  # Streamlit web application  
+├── run_processing.py       # Data preprocessing pipeline  
+├── run_training.py         # Model training script  
+├── visa_prediction.ipynb   # Experimentation notebook  
+├── requirements.txt  
+├── README.md  
+└── LICENSE
 
 🛠️ Technologies Used
 
